@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel = "icon" href = "images/icon.png" type = "image/x-icon">
+
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+        body{
+            font-family: 'Chakra Petch', sans-serif;
+            background-color: #61a0ca;
+        }
+
+    </style>
+
+    <title>Hotel</title>
+  </head>
+  <body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="images/icon.png" alt="" width="40px" height="40px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Stays</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" href="#">Flights</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Flights + Hotel</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Car rentals</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success me-5" type="submit">Search</button>
+            </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5 mb-3 rounded-3" style="background-color: aliceblue;">
+        <div style="width: 100%;padding: 1rem;">
+            <h1>selected information</h1>
+            <table class="table table-bordered">
+                <thead class="table-primary">
+                  <tr>
+                    <th scope="col" class="text-center">#</th>
+                    <th scope="col">Room type</th>
+                    <th scope="col">Sleeps</th>
+                    <th scope="col">Today's price</th>
+                    <th scope="col">Your choices</th>
+                    <th scope="col">Select rooms</th>
+                    <th scope="col" class="text-center">Confirm</th>
+                  </tr>	
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row" class="text-center">1</th>
+                    <td>
+                        <p>Standard Twin Room</p>
+                        <p>2 single beds</p>
+                        <p>Air conditioning</p>
+                        <p>Ensuite bathroom</p>
+                        <p>Flat-screen TV</p>
+                        <p>Free WiFi</p>
+                    </td>
+                    <td>Max persons: 2</td>
+                    <td>
+                        <h2>THB 900</h2>
+                        <p>Includes taxes and charges</p>
+                    </td>
+                    <td>
+                        <p>Very good breakfast included</p>
+                        <p>Non-refundable</p>
+                        <p>Only 2 rooms left on our site</p>
+                    </td>
+                    <td>
+                        <form action="">
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option value="1">1  (THB 900)</option>
+                                <option value="2">2  (THB 1800)</option>
+                            </select>
+                        </form>
+                    </td>
+                    <td class="text-center">
+                        <a href="#" class="btn btn-success">Confirm</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="text-center">2</th>
+                    <td>
+                        <p>Standard Twin Room</p>
+                        <p>2 single beds</p>
+                        <p>Air conditioning</p>
+                        <p>Ensuite bathroom</p>
+                        <p>Flat-screen TV</p>
+                        <p>Free WiFi</p>
+                    </td>
+                    <td>Max persons: 4</td>
+                    <td>
+                        <h2>THB 1400</h2>
+                        <p>Includes taxes and charges</p>
+                    </td>
+                    <td>
+                        <p>Very good breakfast included</p>
+                        <p>Non-refundable</p>
+                        <p>Only 2 rooms left on our site</p>
+                    </td>
+                    <td>
+                        <form action="">
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option value="1">1  (THB 1400)</option>
+                                <option value="2">2  (THB 2800)</option>
+                            </select>
+                        </form>
+                    </td>
+                    <td class="text-center">
+                        <a href="#" class="btn btn-success">Confirm</a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+                    
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
